@@ -1,0 +1,16 @@
+<!-- 
+embedding pdfs 
+https://jamesonzimmer.com/simple-pdf-embed-for-jekyll/ 
+-->
+
+{% highlight html %}
+{% raw %}
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {{ content }}
+  </body>
+</html>
+{% endraw %}
+{% endhighlight %} 

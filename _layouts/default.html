@@ -8,14 +8,18 @@
       </div>
     </main>
 
+    <!--
     {%-if site.goat_counter and jekyll.environment == "production"-%}
       {%-include goat_counter.html-%}
     {%-endif-%}
+    goat_counter.html removed from _includes
+    -->
 
     {% if page.custom_js %}
       {% for js_file in page.custom_js %}
         <script type="text/javascript" src="{{ site.baseurl }}/assets/js/{{ js_file }}.js"></script>
       {% endfor %}
     {% endif %}
+  
   </body>
 </html>
