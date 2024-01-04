@@ -26,6 +26,13 @@ plugins:
   - jekyll-seo-tag
   - jekyll-pdf-embed
 
+# https://jekyllrb.com/docs/static-files/
+defaults:
+  - scope:
+      path: "assets/pdfs"
+    values:
+      pdf: true
+
 # ps aux | grep jekyll
-port: 4333
+# port: 4427
 

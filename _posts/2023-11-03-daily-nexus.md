@@ -2,7 +2,7 @@
 layout: post
 title:  "The Daily Nexus"
 date:   2023-11-03 14:19:17 -0700
-categories: work
+# categories: work
 ---
 
 *This page details my contributions to the Daily Nexus a newspaper run by students from UC Santa Barbara.*
@@ -11,14 +11,14 @@ categories: work
 
 I co-aouthored an article about [UC Santa Barbara's Davidson Library occupancy](https://dailynexus.com/2023-11-03/the-best-time-to-hit-the-books-exploring-occupancy-trends-in-the-ucsb-library/). I processed data and created visualizations using python and jupyter notebooks. The code is accessible in this [repository](https://github.com/dailynexusdata/library-floor).
 
-<iframe src="/assets/pdfs/libgraphs.pdf" type="application/pdf" width="100%" height="500"></iframe>
+<iframe src="{{ 'assets/pdfs/libgraphs.pdf' | relative_url }}" type="application/pdf" width="100%" height="500"></iframe>
 
 
 ## Santa Barbara County Districts and Census Data
 
 Unpublished research mapping in R for the Daily Nexus. I've included a document, shown below, of the different maps I made out of district shapefiles and census data.
 
-<iframe src="/assets/pdfs/sbdistricts.pdf" type="application/pdf" width="100%" height="500"></iframe>
+<iframe src="{{ 'assets/pdfs/sbdistricts.pdf' | relative_url }}" type="application/pdf" width="100%" height="500"></iframe>
 
 ## Munger Hall 
 
