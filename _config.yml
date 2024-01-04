@@ -1,8 +1,8 @@
 title: Portfolio # name of the site
 author: Grace Nunnelley # name of site's author
-email: gracenunnelley@gmail.com
-url: ""
-baseurl: ""
+url: https://gnunnelley.github.io
+baseurl: /portfolio
+# https://mademistakes.com/mastering-jekyll/site-url-baseurl/ 
 # url: http://github.com/riggraz/no-style-please # root address of the site
 description: > # description of the site (multiple lines allowed)
 
