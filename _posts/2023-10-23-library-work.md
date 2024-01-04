@@ -27,19 +27,3 @@ The [Airphotos repository](https://github.com/jonjab/AirPhotos) contains noteboo
  I worked remotely for this research center. My primary duties involved cleaning data and creating dashboards. I also worked with Esri softwares for mapping and other purposes. I complied notebook of Python, R, and SQL code that I wrote during my time in this position.
 
 <iframe src="{{ 'assets/pdfs/dataclean.pdf' | relative_url }}" type="application/pdf" width="100%" height="500"></iframe>
-
-<!---
-watch me embarass myself while I try to embed these godforsaken pdfs
-the script below this works perfectly fine when url and baseurl are not defined in config file
-<iframe src="/assets/pdfs/airphotos.pdf" type="application/pdf" width="100%" height="500"></iframe> 
-
-+ https://stackoverflow.com/questions/74874519/pdf-embed-on-github-page-does-not-work-404-error-occurs?newreg=6ee72430407143f597867bb5130c4882
-
-link to google drive for now, reference below
-https://jamesonzimmer.com/simple-pdf-embed-for-jekyll/
-
-<iframe src="https://drive.google.com/file/d/1KRcxEL9Q4B3WvoVAYnBqXYs1BIJE6uRE/view?usp=drive_link" type="application/pdf" width="100%" height="500"></iframe> 
-
-plugin to source files in post directory? 
-https://nhoizey.github.io/jekyll-postfiles/ 
---->
