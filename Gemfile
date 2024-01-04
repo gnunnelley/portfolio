@@ -9,13 +9,9 @@ source "https://rubygems.org"
 # Happy Jekylling!
 # gem "jekyll", "~> 4.3.3"
 
-source "https://rubygems.org"
-
-gem "kramdown-parser-gfm"
-gem "jekyll-seo-tag"
-gem "faraday-retry"
-
-# gemspec
+# gem "kramdown-parser-gfm"
+# gem "jekyll-seo-tag"
+# gem "faraday-retry"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "minima", "~> 2.5"
@@ -29,6 +25,7 @@ gem "github-pages", group: :jekyll_plugins
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-pdf-embed"
+  gem "jekyll-seo-tag"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
