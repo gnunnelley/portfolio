@@ -6,7 +6,6 @@ entries:
       url: https://www.linkedin.com/in/grace-nunnelley
     - title: github
       url: https://github.com/gnunnelley
-    - title: recent UCSB data science graduate 
-    - title: data visualization, computer vision, geodata
+    - title: UCSB data science graduate 
   - title: posts
     post_list: true
