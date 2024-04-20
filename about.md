@@ -4,11 +4,11 @@ title: About
 # permalink: /about/
 ---
 
-Grace Nunnelley | Data Science
+Grace Nunnelley | Data | Early career
 
-UC Santa Barbara Data Science B.S. Graduate 
+UC Santa Barbara Statistics and Data Science B.S.
 
-Competencies: Python, R, SQL, GIS Softwares
+Python, R, GIS Softwares
 
 
 <!-- 

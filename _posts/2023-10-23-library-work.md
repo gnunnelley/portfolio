@@ -14,7 +14,7 @@ I worked for this research department. My primary duties included desk support, 
 ### Data Carpentry
 
 I assisted with multiple data carpentry workshops and made contributions to one. Example of contributions [twarc workshop](https://ucsbcarpentry.github.io/2022-05-26-ucsb-twarc/): 
-In particular, I made edits to [episode 3](https://github.com/gnunnelley/gh-pages-copy/blob/gh-pages/_episodes/03-3-tweet-anatomy.md). I wrote about the anatomy of JSON files and how the twitter API organized their data. 
+In particular, I made edits to [episode 3](https://github.com/gnunnelley/gh-pages-copy/blob/gh-pages/_episodes/03-3-tweet-anatomy.md). I wrote about the anatomy of JSON files and how the twitter API organized its data. 
 
 ### Airphotos project 
 
