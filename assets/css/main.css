@@ -1,0 +1,12 @@
+@import "no-style-please";
+
+html,
+body {
+    background: #fffef6;
+}
+
+body {
+    color: #09090c;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
