@@ -4,11 +4,13 @@ title: About
 # permalink: /about/
 ---
 
-Grace Nunnelley | Data | Early career
+Grace Nunnelley | Data Analytics and Engineering | Early career
 
 UC Santa Barbara Statistics and Data Science B.S.
 
-Python, R, GIS Softwares
+I have an educational background in statistics and past experiences with GIS, web development, and data management. 
+
+Python, R, SQL, GIS Softwares
 
 
 <!-- 
