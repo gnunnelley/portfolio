@@ -1,7 +1,4 @@
----
----
-
-@import "no-style-please";
+--- --- @import "no-style-please";
 
 // the theme inverts pdf colors, research potential resolution
 
@@ -11,10 +8,13 @@
 // https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 // https://www.siteleaf.com/blog/making-your-first-jekyll-theme-part-1/ 
 
-html, body { background: #f7f3da; }
+html,
+body {
+    background: #f7f3da;
+}
 
 body {
     color: #080c25;
-    font-family: 'Courier New', Courier, monospace;
+    // font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
 }
