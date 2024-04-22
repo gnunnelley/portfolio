@@ -10,7 +10,7 @@ UC Santa Barbara Statistics and Data Science B.S.
 
 I have an educational background in statistics and past experiences with GIS, web development, and data management. 
 
-Python, R, SQL, GIS Softwares
+Python, R, SQL, Tableau, GIS Softwares
 
 
 <!-- 
