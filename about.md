@@ -8,7 +8,7 @@ Grace Nunnelley | Data Analytics and Engineering | Early career
 
 UC Santa Barbara Statistics and Data Science B.S.
 
-I have an educational background in statistics and past experiences with GIS, web development, and data management. 
+I have an educational background in statistics and prior work experiences with GIS technologies and web development.  I am interested in cloud computing, devops, and API development. 
 
 Python, R, SQL, Tableau, GIS Softwares
 
