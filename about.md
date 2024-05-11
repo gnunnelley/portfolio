@@ -4,9 +4,7 @@ title: About
 # permalink: /about/
 ---
 
-Grace Nunnelley | Data Analytics and Engineering | Early career
-
-UC Santa Barbara Statistics and Data Science B.S.
+Grace Nunnelley | UC Santa Barbara, Statistics and Data Science B.S.
 
 I have an educational background in statistics and prior work experiences with GIS technologies and web development.  I am interested in cloud computing, devops, and API development. 
 
