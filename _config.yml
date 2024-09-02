@@ -34,5 +34,5 @@ defaults:
       pdf: true
 
 # ps aux | grep jekyll
-# port: 4427
+port: 4427
 

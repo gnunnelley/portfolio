@@ -4,11 +4,9 @@ title: About
 # permalink: /about/
 ---
 
-Grace Nunnelley | UC Santa Barbara, Statistics and Data Science B.S.
+Grace Nunnelley | Data Analyst | UC Santa Barbara, Statistics and Data Science B.S.
 
-I have an educational background in statistics and prior work experiences with GIS technologies and web development.  I am interested in cloud computing, dev-ops, and API development. I am actively learning new technologies and I am seeking roles related to research data analytics and engineering. 
-
-Competencies: Python, R, SQL, Tableau, GIS Softwares
+Competencies: Python, R, SQL, GIS Softwares
 
 
 <!-- 
