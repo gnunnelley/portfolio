@@ -8,11 +8,11 @@ output:
     preserve_yaml: TRUE
 ---
 
-The following post details how an ARIMA model, with Fourier transformations, is fit to forecast the occupancy of a library floor dataset with hourly data. The code is written in R and is rendered from an rmarkdown. This is personal project combining a dataset from a prior project and methodology associated with a past course.
+The following post details the application of an ARIMA model to forecast the occupancy of a library floor dataset with hourly increments. The code is written in R and is rendered from an rmarkdown. This is personal project combining a dataset from a prior project and methodology associated with a past course.
 
 ## Data Cleaning 
 
-The data contains multiple floors of the library. I filtered the dataset down to the averages for the entirety of the library. The average_occupancy variable represents the average number of occupants hourly. The project focuses on a univariate analysis of the average occupants relative to time for the entire library. More information and exploratory analysis on the dataset can be found [here](https://dailynexus.com/2023-11-03/the-best-time-to-hit-the-books-exploring-occupancy-trends-in-the-ucsb-library/). There are gaps of time in the dataset, most of them occuring in September 2022. Later on, I use the ts_tibble to handle these gaps. 
+The data contains multiple floors of the library. I filtered the dataset down to the averages for the entirety of the library. The *average_occupancy* variable represents the average number of occupants hourly. The project focuses on a univariate analysis of the average occupants for the entire library. More information and exploratory analysis on the dataset can be found [here](https://dailynexus.com/2023-11-03/the-best-time-to-hit-the-books-exploring-occupancy-trends-in-the-ucsb-library/). There are gaps of time in the dataset, most of them occuring in September 2022. Later on, I use the ts_tibble to handle these gaps. 
 
 ``` r
 floor = read_csv('libFloor.csv', show_col_types = FALSE)
@@ -42,7 +42,7 @@ floor.ts
 ### KSPSS and ADF
 
 The series is more statistically significant when differenced once
-compared to not differencing. The univariate time series of is observably
+versus not. The univariate time series of is observably
 not stationary. The data is non-stationary and needs to be differenced
 once.
 
@@ -89,13 +89,14 @@ Because the data often drops to near zero numbers a [lambda transformation](http
 
     ## [1] 0.3083226
 
-Holidays and weeks of the quarter impact on the frequency of the
-occupancy rates (e.g. more students attend the library the week before
+Holidays and weeks of the quarter impact the frequency of the
+occupancy rates. More students attend the library the week before
 finals and less students attend the library the week around
-thanksgiving). The repetition of the school year makes me believe that
-an annual seasonal pattern exists. The hourly frequency of the time
+thanksgiving. The repetitions over school year makes me believe that
+some seasonal pattern exists. The hourly frequency of the time
 series makes the seasonality 
-[complex](https://otexts.com/fpp3/complexseasonality.html).
+[complex](https://otexts.com/fpp3/complexseasonality.html). 
+For this model, I do not choose SARIMA, because it would not properly represent the complex seasonal patterns. 
 
 
 ## ACF/PACF
@@ -226,8 +227,7 @@ fit_select |>
 # fit_select %>% forecast(h=24*14) %>% autoplot()
 ```
 
-Using Fourier regressors for a daily period mimics the distribution of
-the series over consecutive 24 hour periods.
+Using Fourier regressors makes the forecast more cyclical and better representative of the 24 hour periods.
 
 ### AIC Selection
 
@@ -294,11 +294,7 @@ floor.train |>
 <iframe src="{{ 'assets/img/ARIMA_model_2.png' | relative_url }}" type="image" width="100%" height="400"></iframe>
 Aside from the areas where the region
 is supposed to be low during breaks, the fit appears to be relatively
-accurate. MAPE is ignored because the dataset contains zero values.
-
-| ME    | RMSE    | MAE    | MASE  | RMSSE | ACF1   |
-|-------|---------|--------|-------|-------|--------|
-| 3.694 | 96.5755 | 57.027 | 0.304 | 0.293 | -0.175 |
+accurate. 
 
 *References*
 + <https://people.duke.edu/~rnau/411arim3.htm> 
